@@ -65,20 +65,28 @@
 @media (max-width:768px){
 
   
-  .cabecalhoPrincipal .container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .cabecalhoPrincipal .cabecalhoPrincipal-nav {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
+.cabecalhoPrincipal .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecalhoPrincipal .cabecalhoPrincipal-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
 }
 
 .cabecalhoPrincipal-nav-link-app {
   order: -1;
+}
+
+.conteudoPrincipal-cursos {
+  flex-direction: column;
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 100%;
 }
 
 }

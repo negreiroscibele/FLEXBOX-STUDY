@@ -89,4 +89,20 @@
   width: 100%;
 }
 
+.rodapePrincipal-navMap-list {
+  height: auto;
+}
+
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  justify-content: center;
+}
+
+.rodapePrincipal-patrocinadores-list {
+  width: 100%;
+}
 }

@@ -49,7 +49,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  flex-grow: 2;
 }
 
 .videoSobre-sobre-list {
@@ -58,6 +58,7 @@
 
 .videoSobre-video {
   flex-grow: 1;
+  flex-shrink: 2;
 }
 
 /* ----- DISPLAY MOBILE */
@@ -105,4 +106,14 @@
 .rodapePrincipal-patrocinadores-list {
   width: 100%;
 }
+
+.videoSobre-video {
+  margin: 0 auto;
+}
+
+.videoSobre .container {
+  flex-direction: column;
+}
+
+
 }
